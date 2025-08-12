@@ -30,10 +30,14 @@ const Home = () => {
     }
 
     const token = localStorage.getItem('token')
+    const room = localStorage.getItem('roomName')
     
     useEffect(() => {
       if(!token){
         navigate("/login")
+      }
+      if(room){
+        navigate(`class/${room}`)
       }
       fetchClassRooms()
     }, [selectedClassroom]);

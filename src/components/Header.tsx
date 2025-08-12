@@ -47,7 +47,7 @@ const Header = ({ selectedClassroom }: any) => {
 
         <div className="flex items-center gap-24"> 
           <button
-          onClick={() => { webSocketService.disconnect(); navigate("/"); window.location.reload();}}
+          onClick={() => { webSocketService.disconnect(); navigate("/");localStorage.removeItem("roomName"); window.location.reload(); }}
           className="mb-4 flex items-center text-gray-600 hover:text-gray-900 transition-colors"
         >
           <ChevronLeft className="h-5 w-5 mr-1" />
