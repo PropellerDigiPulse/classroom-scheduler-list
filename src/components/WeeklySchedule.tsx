@@ -1,9 +1,9 @@
 import React from 'react';
-import { Class, DayOfWeek } from '../types';
+import type { DayOfWeek } from '../types';
 import { AlertCircle } from 'lucide-react';
 
 interface WeeklyScheduleProps {
-  classes: Class[];
+  classes: any[];
   days: DayOfWeek[];
 }
 

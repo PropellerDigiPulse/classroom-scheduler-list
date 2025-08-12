@@ -1,4 +1,3 @@
-import { ClassroomWithSchedule } from '../types';
 
 // Groupdiscussion-management
 // Seminar-International Marketing
@@ -13,7 +12,7 @@ const COLORS = {
   indigo: '#4F46E5',
 };
 
-export const mockClassrooms: ClassroomWithSchedule[] = [
+export const mockClassrooms: any[] = [
   {
     id: '1',
     name: 'Lecture Hall A',

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { DayOfWeek } from '../types';
+import type { DayOfWeek } from '../types';
 
 interface DaySelectorProps {
   days: DayOfWeek[];

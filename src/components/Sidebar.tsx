@@ -1,11 +1,10 @@
 import React from 'react';
 import { Building2, Info, Search, X } from 'lucide-react';
-import { Classroom, ClassroomWithSchedule } from '../types';
 
 interface SidebarProps {
-  classrooms: ClassroomWithSchedule[];
-  selectedClassroom: ClassroomWithSchedule | null;
-  setSelectedClassroom: (classroom: ClassroomWithSchedule) => void;
+  classrooms: any[];
+  selectedClassroom: any | null;
+  setSelectedClassroom: (classroom: any) => void;
   isOpen: boolean;
   onClose: () => void;
 }
