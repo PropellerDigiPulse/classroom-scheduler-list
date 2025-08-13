@@ -43,7 +43,7 @@ const Header = ({ selectedClassroom }: any) => {
           </div>
         </div>
 
-        <h1 className="text-5xl font-bold text-gray-800 tracking-tight">{classroom?.roomName} {classroom.building}</h1>
+        <h1 className="text-5xl font-bold text-gray-800 tracking-tight">{classroom?.roomName}</h1>
 
         <div className="flex items-center gap-24"> 
           <button
